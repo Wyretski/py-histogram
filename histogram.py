@@ -17,4 +17,4 @@ print(recounted)
 def ascii_histogram(seq) -> None:
   counted  = count_elements(seq)
   for k in sorted (counted):
-    print("{0:5d {1}".format(k "+" *counted[k]))
+    print("{0:5d} {1}".format(k "+" *counted[k]))
