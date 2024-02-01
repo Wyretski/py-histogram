@@ -6,8 +6,8 @@ def count_elements(seq) -> dict:
     hist[i] = hist.get(i, 0) + 1
   return hist
 
-conted = count_elements(a)
-counted
+counted = count_elements(a)
+print(counted)
 
 ##def ascii_histogram(seq) -> None:
   ##counted  = count_elements(seq)
